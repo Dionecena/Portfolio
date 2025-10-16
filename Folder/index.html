@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D- Portfolio Book</title>
+    <!-- BoxIcon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <!-- Language Selector -->
+            <div class="language-selector">
+              <button class="lang-btn active" data-lang="fr">🇫🇷 FR</button>
+              <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+            </div>
+            <img src="./img.jpg" alt="" />
+            <h1>Moussa Dione</h1>
+            <h3>Dev Full Stack Junior</h3>
+
+            <div class="social-media">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="https://x.com/dionecena1?s=21"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.instagram.com/dionecenasn?igsh=MXhyYXRmaTlsMWZhcA%3D%3D&utm_source=qr"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/moussa-dione-7b2342388"><i class="bx bxl-linkedin-square"></i></a>
+            </div>
+
+            <p>
+              Je suis étudiant en 3e année de Génie Logiciel, passionné par le développement logiciel, web et mobile, les interfaces modernes et les solutions numériques utiles à la société. J'aime apprendre, créer, et surtout construire des projets qui ont du sens — que ce soit en solo ou en équipe, dans un hackathon ou à travers une idée personnelle.
+            </p>
+
+            <div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me!</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Work Experience</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2024</span
+                >
+                <h3>Backend Developer - Teranga Code (1er Prix)</h3>
+                <p>
+                  Projet réalisé lors du hackathon Teranga Code où mon équipe a remporté le premier prix. Plateforme dédiée à l'orientation et à la gestion des candidatures dans l'enseignement supérieur sénégalais. J'ai assuré le développement du backend et la structuration des fonctionnalités principales.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2024</span
+                >
+                <h3>Frontend Developer - Dakar Slush'D</h3>
+                <p>
+                  Projet réalisé lors du hackathon Dakar Slush'D en équipe. Expérience immersive pour découvrir les œuvres du Musée des Civilisations Noires. J'ai assuré le développement frontend avec une interface moderne, des effets visuels dynamiques et une navigation multilingue.
+                </p>
+              </div>
+
+            </div>
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!-- page 2 (education) -->
+          <div class="page-back">
+            <h1 class="title">Education</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2026</span
+                >
+                <h3>Licence en Génie Logiciel - ISI</h3>
+                <p>
+                  Formation axée sur le développement logiciel, l'architecture des systèmes, la sécurité web et les projets collaboratifs.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>2023 - 2024</span
+                >
+                <h3>Baccalauréat Scientifique - Cabis School</h3>
+                <p>
+                  Spécialisation en sciences exactes avec une forte orientation vers la logique, les mathématiques et l'informatique.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>En cours</span
+                >
+                <h3>Certifications en ligne</h3>
+                <p>
+                  Formations complémentaires sur OpenClassrooms, Udemy et Coursera en développement web, Git/GitHub et sécurité des applications.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          <div class="page-front">
+            <h1 class="title">My Services</h1>
+
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-code-alt"></i>
+                <h3>Développement Web Full Stack</h3>
+                <p>
+                  Création d'applications web complètes avec technologies modernes, de l'interface utilisateur à la base de données.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bxs-paint"></i>
+                <h3>Création de Logos & Maquettes</h3>
+                <p>
+                  Conception d'identités visuelles uniques et de maquettes professionnelles pour vos projets digitaux.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-palette"></i>
+                <h3>Conception d'Interfaces UI/UX</h3>
+                <p>
+                  Design d'expériences utilisateur intuitives et d'interfaces modernes pour app web et mobile.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-server"></i>
+                <h3>Développement Backend & API</h3>
+                <p>
+                  Création d'architectures serveur robustes et d'APIs sécurisées pour vos applications.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+
+            <span class="number-page">3</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+
+          </div>
+          <!-- page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Front-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-html5"></i> HTML</span>
+                  <span><i class="bx bxl-css3"></i>CSS</span>
+                  <span><i class="bx bxl-javascript"></i>JavaScript</span>
+                  <span><i class="bx bxl-react"></i>React</span>
+                  <span><i class="bx bxl-php"></i>PHP</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Back-End & Langages</h3>
+                <div class="content">
+                  <span><i class="bx bxl-java"></i>Java</span>
+                  <span><i class="bx bxl-python"></i>Python</span>
+                  <span><i class="bx bx-code"></i>C/C++</span>
+                  <span><i class="bx bxl-php"></i>Laravel</span>
+                  <span><i class="bx bx-data"></i>MySQL</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Outils & Design</h3>
+                <div class="content">
+                  <span><i class="bx bxl-github"></i>GitHub</span>
+                  <span><i class="bx bxl-tux"></i>Linux</span>
+                  <span><i class="bx bxl-windows"></i>Windows</span>
+                  <span><i class="bx bxl-figma"></i>Figma</span>
+                  <span><i class="bx bx-palette"></i>Photoshop</span>
+                  <span><i class="bx bx-cube"></i>Blender</span>
+                </div>
+              </div>
+            </div>
+
+            <span class="number-page">4</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+            <!-- page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (latest project or many portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="website 3.png" alt="">
+                        </div>
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>Musée des Civilisations Noires</h3>
+                                <a href="https://hackathon-dakar-slush-d.netlify.app/">Live Preview <i class="bx bx-link-external"></i></a>
+                            </div>
+                            <p>Tech Used: React, JavaScript, HTML/CSS, Laravel</p>
+                            <p>Expérience immersive 3D pour découvrir les œuvres du Musée des Civilisations Noires. Interface moderne avec effets visuels dynamiques et navigation multilingue développée lors du hackathon Dakar Slush'D.</p>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://github.com/Madieyeee/Hackathon-Dakar-Slush-D" class="btn">Source Code</a>
+                            <a href="#" class="btn">More Projects</a>
+    
+                        </div>
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                      <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+
+                <!-- page 6 (contact me!) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                      <form action="https://formspree.io/f/xldpaage" method="POST">
+                        <input type="text" name="name" class="field" placeholder="Full Name" required>
+                        <input type="email" name="email" class="field" placeholder="Email Address" required>
+                        <textarea name="message" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Send Message" class="btn">
+                      </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                      <i class="bx bx-chevron-left"></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                      <p>Profile</p>
+                      <i class="bx bxs-user"></i>
+                    </a>
+                </div>
+
+            </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
