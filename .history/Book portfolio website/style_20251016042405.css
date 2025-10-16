@@ -88,7 +88,7 @@ body{
     box-shadow: 0 0 .6rem rgba(0,0,0,0.1);
     display: flex;
     padding: 2rem;
-    top: -10px;
+    top: -5px;
 }
 .book-page.page-left{
     box-shadow: -.6rem .6rem .6rem rgba(0,0,0,0.1);
